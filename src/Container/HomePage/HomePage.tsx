@@ -2,7 +2,7 @@ import Honey from './honey.svg'
 import Card from '../../Components/Card/Card.tsx';
 const HomePage = () => {
   return (
-    <>
+    <main>
       <div className="container">
         <div className="d-flex justify-content-center align-items-center">
           <img src={Honey} alt="Honey"/>
@@ -25,7 +25,7 @@ const HomePage = () => {
           <Card img={Honey} />
         </div>
       </div>
-    </>
+    </main>
   );
 };
 
