@@ -1,4 +1,4 @@
-import Honey from './honey.svg'
+import Honey from '../../assets/honey.svg'
 import Card from '../../Components/Card/Card.tsx';
 const HomePage = () => {
   return (

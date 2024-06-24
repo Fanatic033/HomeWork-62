@@ -1,6 +1,5 @@
-import logo from './beeLogo.png';
+import logo from '../../assets/beeLogo.png';
 import {NavLink} from 'react-router-dom';
-
 const Header = () => {
   return (
     <header>
@@ -18,10 +17,12 @@ const Header = () => {
                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">About us</NavLink>
+                <NavLink className="nav-link" to="about">About us</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/pricing">Contacts</NavLink>
+                <NavLink className="nav-link" to="pricing">Contacts</NavLink>
+              </li> <li className="nav-item">
+                <NavLink className="nav-link" to="other">Other Projects</NavLink>
               </li>
             </ul>
           </div>
